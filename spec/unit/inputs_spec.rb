@@ -25,5 +25,4 @@ describe Inputs do
       expect(StringIO.new(content).read).to eq(content)
     end
   end
-
 end

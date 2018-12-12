@@ -1,6 +1,32 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/andrewgibbs/Projects/tech_tests/global_relay/anagram_finder/spec/unit/convert_file_to_array_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/andrewgibbs/Projects/tech_tests/global_relay/anagram_finder/lib/convert_file_to_array.rb": [
+        1,
+        1,
+        1,
+        1,
+        17,
+        null,
+        1,
+        null,
+        null
+      ],
       "/Users/andrewgibbs/Projects/tech_tests/global_relay/anagram_finder/spec/unit/inputs_spec.rb": [
         1,
         null,
@@ -29,18 +55,21 @@
         1,
         null,
         null,
-        null,
         null
       ],
       "/Users/andrewgibbs/Projects/tech_tests/global_relay/anagram_finder/lib/inputs.rb": [
-        1,
         null,
         1,
         1,
+        1,
+        null,
+        null,
+        1,
+        0,
         null,
         null
       ]
     },
-    "timestamp": 1544625697
+    "timestamp": 1544626697
   }
 }
