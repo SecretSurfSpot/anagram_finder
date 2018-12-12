@@ -1,9 +1,9 @@
-require_relative 'inputs'
-require_relative 'convert_file_to_array'
-require_relative 'anagram_finder'
-require_relative 'printer'
+require './lib/inputs'
+require './lib/convert_file_to_array'
+require './lib/anagram_finder'
+require './lib/printer'
 
-class AnagramFinderController
+class App
 
   def initialize(inputs = Inputs.new,
                  convert_file_to_array = ConvertFileToArray.new,
