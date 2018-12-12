@@ -1,7 +1,29 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/andrewgibbs/Projects/tech_tests/global_relay/anagram_finder/spec/unit/inputs_spec.rb": [
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ]
     },
-    "timestamp": 1544624790
+    "timestamp": 1544625305
   }
 }
