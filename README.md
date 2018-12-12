@@ -41,7 +41,7 @@ To test the application:
 
 The above commands result in the output shown in the screenshot below:
 
-![REPL screenshot](https://github.com/SecretSurfSpot/anagram/blob/master/images/rspec_screenshot.png)
+![REPL screenshot](https://github.com/SecretSurfSpot/anagram_finder/blob/master/images/rspec_screenshot.png)
 
 ### Use
 To use the application, open a Ruby REPL from the project root and type the following commands:
@@ -71,7 +71,7 @@ To quit the application, enter:
 
 The above commands result in the output shown in the screenshot below:
 
-![REPL screenshot](https://github.com/SecretSurfSpot/anagram/blob/master/images/interaction_screenshot.png)
+![REPL screenshot](https://github.com/SecretSurfSpot/anagram_finder/blob/master/images/interaction_screenshot.png)
 
 ## Domain Model
 
