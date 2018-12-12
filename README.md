@@ -114,3 +114,8 @@ Five classes:
   - get_filename
 
 ```
+
+## Possible Improvements
+- Code could be modified so that the file (list of words) is read and stored into an array that persists, for the lifetime of the users session on the application
+- Testing could be extended to cover edge cases and instance when incorrect input is entered
+- The application could be re-written in a language that is better suited to speedy data processing (Python or Java for instance)
