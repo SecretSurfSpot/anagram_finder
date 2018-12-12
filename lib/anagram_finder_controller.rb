@@ -19,7 +19,6 @@ class AnagramFinderController
     subject = @inputs.capture_subject
     filename = @inputs.capture_filename
     word_array = @convert_file_to_array.convert_txt_file_to_array(filename)
-    #word_array = @convert_file_to_array.convert_txt_file_to_array
     anagram_array = @anagram_finder.create_anagrams_array(subject, word_array)
     @printer.print_anagrams(anagram_array)
   end

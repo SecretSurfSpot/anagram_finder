@@ -8,7 +8,7 @@ class AnagramFinder
       if word.downcase.chars.sort.join == subject.downcase.chars.sort.join
         anagrams_array << word
       end
-        anagrams_array.include? subject.downcase ? anagrams_array.delete(subject.downcase) : false
+      anagrams_array.include? subject.downcase ? anagrams_array.delete(subject.downcase) : false
     end
     return anagrams_array
   end
