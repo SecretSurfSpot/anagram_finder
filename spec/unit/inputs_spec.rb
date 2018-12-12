@@ -17,4 +17,13 @@ describe Inputs do
     end
   end
 
+  describe '#capture_file' do
+    it 'should open the given file' do
+      filename = 'line.csv'
+      content = 'this would be the content of the file'
+      allow(File).to receive(:open).with(filename, 'r').and_yield(StringIO.new(content))
+      expect(StringIO.new(content).read).to eq(content)
+    end
+  end
+
 end
