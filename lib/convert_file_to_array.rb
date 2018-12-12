@@ -1,7 +1,9 @@
 # ConvertFileToArray - this class contains methods that:
 # converts the contents of a txt file into an array
 class ConvertFileToArray
-  def convert_txt_file_to_array(file)
+  # def convert_txt_file_to_array(filename = './assets/list.txt')
+  def convert_txt_file_to_array(filename)
+    file = File.open(filename, 'r')
     word_array = []
     file.readlines.each do |word|
       word_array << word.strip

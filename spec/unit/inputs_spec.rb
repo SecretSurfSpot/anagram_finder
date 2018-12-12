@@ -2,6 +2,7 @@ require 'inputs'
 
 describe Inputs do
   inputs = Inputs.new
+
   describe '#capture_subject' do
     before do
       $stdin = StringIO.new("Listen\n")
@@ -17,12 +18,19 @@ describe Inputs do
     end
   end
 
-  describe '#capture_file' do
-    it 'should open the given file' do
-      filename = 'line.csv'
-      content = 'this would be the content of the file'
-      allow(File).to receive(:open).with(filename, 'r').and_yield(StringIO.new(content))
-      expect(StringIO.new(content).read).to eq(content)
+
+  describe '#capture_filename' do
+    before do
+      $stdin = StringIO.new("./assets/list.txt\n")
+    end
+
+    after do
+      $stdin = STDIN
+    end
+
+    it "should get user input ('Listen')" do
+      STDIN = StringIO.new("./assets/list.txt\n")
+      expect(inputs.capture_filename).to eq('./assets/list.txt')
     end
   end
 end
