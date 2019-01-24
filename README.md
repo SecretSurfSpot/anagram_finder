@@ -9,7 +9,7 @@ Task: Write a command line app in the language of your choice which implements t
 ```
 As an investigator,
 so that I can solve the mystery of the crime, given the clues left behind,
-I would like to check whether a word is an anagram of any of the words in a given list,
+I would like to check whether a word is an anagram of any of the words in a given list.
 ```
 ## Acceptance Criteria
 
@@ -39,7 +39,7 @@ To test the application:
 - Open Terminal (or a similar command line interface)
 - Run `rspec` from the project root
 
-The above commands result in the output shown in the screenshot below:
+The above commands result in the output below:
 
 ![REPL screenshot](https://github.com/SecretSurfSpot/anagram_finder/blob/master/images/rspec_screenshot.png)
 
@@ -51,10 +51,10 @@ To use the application, open a Ruby REPL from the project root and type the foll
 - `app = App.new`
 - `app.run`
 
-You will then we asked to enter the word you want to check - Enter the word, as below.
+You will then be asked to enter the word you want to check - Enter the word, as below.
 - `LISTEN`
 
-You will then we asked to enter the path and name of the file that contains the list of words - Enter the path and filename, as below.
+You will then be asked to enter the path and name of the file that contains the list of words - Enter the path and filename, as below.
 - `./assets/list.txt`
 
 To check another word, enter:
@@ -69,7 +69,7 @@ Enter the file path and name:
 To quit the application, enter:
 - `exit`
 
-The above commands result in the output shown in the screenshot below:
+The above commands result in the output below:
 
 ![REPL screenshot](https://github.com/SecretSurfSpot/anagram_finder/blob/master/images/interaction_screenshot.png)
 
@@ -80,10 +80,10 @@ The model below illustrates the high-level structure of the application.
 Five classes:
 
 1. **App:** The 'controller' class, with the 'run' method that orchestrates the execution of the relevant class methods.
-2. **Inputs:** Gets user input: subject and filename, which containing a list of words.
+2. **Inputs:** Gets user inputs: subject and filename, which contains a list of words.
 3. **ConvertFileToArray** Takes the filename as input, converts the file contents to an word_array
 4. **Anagram_Finder:** Takes the 'subject' and 'word_array', determines if there are any matches (anagrams) and creates an anagram array.
-5. **Printer:** Takes the anagram_array, prints each word out on a new line.
+5. **Printer:** Takes the anagram_array, prints each word on a new line.
 
 ```
                                                 User
@@ -116,6 +116,6 @@ Five classes:
 ```
 
 ## Possible Improvements
-- Code could be modified so that the file (list of words) is read and stored into an array that persists, for the lifetime of the users session on the application
-- Testing could be extended to cover edge cases and instance when incorrect input is entered
+- Code could be modified so that the file (list of words) is read and stored into an array that persists for the lifetime of the users session on the application
+- Testing could be extended to cover edge cases and instances when incorrect input is entered
 - The application could be re-written in a language that is better suited to speedy data processing (Python or Java for instance)

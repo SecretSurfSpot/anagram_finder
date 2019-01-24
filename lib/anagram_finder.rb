@@ -1,4 +1,4 @@
-# AnagramFinder this class take a word (subject) and an array as inputs
+# AnagramFinder - this class take a word (subject) and an array as inputs
 # and creates an anagrams_array of words that are anagrams of the subject
 class AnagramFinder
   def create_anagrams_array(subject, word_array)

@@ -1,4 +1,4 @@
-# Printer, this class takes an array and prints
+# Printer - this class takes an array and prints
 # each word, one by one
 class Printer
   def print_anagrams(anagram_array)
